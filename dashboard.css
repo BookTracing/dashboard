@@ -1,5 +1,5 @@
 /* https://www.youtube.com/@booktracing */
-/* Updated 2024-02-13 */
+/* Updated 2024-02-27 */
 
 .dashboard {
     font-family: inherit;
@@ -28,6 +28,11 @@
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     gap: 50px 50px; /* 항목 간의 간격 */
 }
+
+.dashboard ul.contains-task-list {
+    row-gap: 0px !important;
+}
+
 
 
 .dashboard ul.dataview {
