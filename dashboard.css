@@ -1,12 +1,12 @@
 /* https://www.youtube.com/@booktracing */
-/* Updated 2024-02-27 */
+/* Updated 2024-03-17 */
 
 .dashboard {
     font-family: inherit;
     padding-left: 30px;
     padding-right: 30px ;
    }
-.dashboard .markdown-preview-section {
+.dashboard.markdown-preview-section {
     max-width: 100%;
 }
 
@@ -23,14 +23,14 @@
 }
 
 
-.dashboard div > ul {
+.dashboard.markdown-preview-view div > ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)) ;
     gap: 50px 50px; /* 항목 간의 간격 */
 }
 
 .dashboard ul.contains-task-list {
-    row-gap: 0px !important;
+    row-gap: 30px !important;
 }
 
 
